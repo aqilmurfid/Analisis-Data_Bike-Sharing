@@ -40,7 +40,7 @@ def create_rfm_df(df):
     rfm_df.drop("max_order_timestamp", axis=1, inplace=True)
     return rfm_df
 # Prepare dataframe
-day_df = pd.read_csv("Dashboard/Hasil Analisis.csv")
+day_df = pd.read_csv("Hasil Analisis.csv")
 
 datetime_columns = ["date"]
 day_df.sort_values(by="date", inplace=True)
@@ -55,7 +55,7 @@ max_date = day_df["date"].max()
  
 with st.sidebar:
     # Menambahkan logo 
-    st.image('Dashboard/images.png')
+    st.image('images.png')
     
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
