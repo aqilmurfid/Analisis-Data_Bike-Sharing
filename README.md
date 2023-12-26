@@ -26,6 +26,11 @@ Both hour.csv and day.csv have the following fields, except hr which is not avai
 # Dashboard 
 https://result-h9ypcgqlync2aeo4qfznnmu.streamlit.app/
 
+# Setup Environment
+	conda create --name main-ds python=3.9
+	conda activate main-ds
+	pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
+
 # Menjalankan Streamlit
 	- streamlit run dashboard.py
 
