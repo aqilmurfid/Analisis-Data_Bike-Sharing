@@ -32,7 +32,7 @@ https://result-h9ypcgqlync2aeo4qfznnmu.streamlit.app/
 	pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 
 # Menjalankan Streamlit
-	- streamlit run dashboard.py
+	streamlit run dashboard.py
 
  # Tampilan Dashboard
  ![image](https://github.com/aqilmurfid/Analisis-Data_Bike-Sharing/assets/81450117/8df7fbc8-43d6-473d-8a22-bb1fd4fd3af3)
